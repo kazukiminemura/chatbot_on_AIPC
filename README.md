@@ -32,7 +32,7 @@ This repository provides a small local chatbot that runs the DeepSeek-R1-Distill
 4. (First run only) Download the OpenVINO model snapshot with the Hugging Face CLI:
    ```powershell
    pip install "huggingface_hub[cli]"
-   huggingface-cli download OpenVINO/DeepSeek-R1-Distill-Qwen-1.5B-int4-cw-ov --local-dir model
+   hf download OpenVINO/DeepSeek-R1-Distill-Qwen-1.5B-int4-cw-ov --local-dir model
    ```
 5. Start the application:
    ```powershell
